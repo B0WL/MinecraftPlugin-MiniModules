@@ -3,7 +3,6 @@
   <groupId>io.github.B0WL</groupId>
   <artifactId>HorseIndicator</artifactId>
   <version>1.0</version>
-
 	<build>
 		<plugins>
 			<plugin>
