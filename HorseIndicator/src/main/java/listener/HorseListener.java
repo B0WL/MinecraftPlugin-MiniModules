@@ -63,25 +63,17 @@ public class HorseListener implements Listener {
 						+ 3.689713992 * Math.pow(jump, 2) 
 						+ 2.128599134 * jump
 						- 0.343930367;
-
-				String age = Integer.toString(horse.getAge());
 				Double health = (horse.getMaxHealth());
 
-				String domeLevel = Integer.toString(horse.getDomestication());
 
 				ScoreHelper helper = ScoreHelper.createScore(player);
 				helper.setTitle("Horse Indicator");
-				helper.setSlot(9, "&7&m--------------");
-				helper.setSlot(8, "&aAge&f    : " + age);
-				helper.setSlot(7, "&aHealth&f : " + String.format("%.0f", health));
-				helper.setSlot(6, "");
-
-				helper.setSlot(5, "&aSpeed&f : " + String.format("%.1f", speedBlock) + "b/s");
-				helper.setSlot(4, "&aJump&f  : " + String.format("%.1f", jumpBlock) + "b");
-				helper.setSlot(3, "");
-
-				helper.setSlot(2, "&aDomest&f: " + domeLevel);
-				helper.setSlot(1, "&7&m--------------");
+				helper.setSlot(6, "&7&m------------");
+				helper.setSlot(5, "&aHealth&f : " + String.format("%.0f", health));
+				helper.setSlot(4, "");
+				helper.setSlot(3, "&aSpeed&f : " + String.format("%.1f", speedBlock) + " b/s");
+				helper.setSlot(2, "&aJump&f  : " + String.format("%.1f", jumpBlock) + " b");
+				helper.setSlot(1, "&7&m------------");
 			}
 		}
 

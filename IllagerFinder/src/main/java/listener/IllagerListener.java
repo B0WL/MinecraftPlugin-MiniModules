@@ -23,13 +23,12 @@ public class IllagerListener implements Listener {
 		case RAVAGER:
 			LivingEntity livingEntity = (LivingEntity) entity;
 			FileConfiguration config = IllagerFinder.instance.getConfig();
+			
 			livingEntity.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, config.getInt("glowing_tick"), 1));
-
 			FireworkManager.spawnFireworks(event.getLocation(), config.getInt("firework_amount"));
 			break;
 		default:
 			return;
 		}
 	}
-
 }

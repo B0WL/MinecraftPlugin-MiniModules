@@ -14,7 +14,7 @@ public class FireworkManager {
     FireworkMeta fwm = fw.getFireworkMeta();
     
     fwm.setPower(2);
-    fwm.addEffect(FireworkEffect.builder().withColor(Color.LIME).flicker(true).build());
+    fwm.addEffect(FireworkEffect.builder().withColor(Color.RED).flicker(true).build());
     
     fw.setFireworkMeta(fwm);
     fw.detonate();

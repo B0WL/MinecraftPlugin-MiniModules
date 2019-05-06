@@ -2,5 +2,5 @@
 #디버그 모드
 debug: false
 
-glowing_tick: 1200
+glowing_tick: 3600
 firework_amount: 1
