@@ -14,14 +14,10 @@ public class FireworkManager {
     FireworkMeta fwm = fw.getFireworkMeta();
     
     fwm.setPower(2);
-    fwm.addEffect(FireworkEffect.builder().withColor(Color.RED).flicker(true).build());
-    
-    fw.setFireworkMeta(fwm);
-    fw.detonate();
+    fwm.addEffect(FireworkEffect.builder().withColor(Color.WHITE).flicker(true).build());
     
     for(int i = 0;i<amount; i++){
-        Firework fw2 = (Firework) loc.getWorld().spawnEntity(loc, EntityType.FIREWORK);
-        fw2.setFireworkMeta(fwm);
+    	fw.setFireworkMeta(fwm);
     }
 }
 }
