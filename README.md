@@ -11,3 +11,6 @@ https://www.spigotmc.org/resources/villager-cleaner.67110/
 
 Horse Indicator
 https://www.spigotmc.org/resources/horse-indicator.67112/
+
+Illager Finder
+https://www.spigotmc.org/resources/illager-finder.67273/
