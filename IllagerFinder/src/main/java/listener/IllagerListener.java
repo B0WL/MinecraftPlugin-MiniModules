@@ -57,6 +57,7 @@ public class IllagerListener implements Listener {
 					}
 				}
 	}
+	
 
 	@EventHandler
 	public void onBellRing(PlayerStatisticIncrementEvent event) {
