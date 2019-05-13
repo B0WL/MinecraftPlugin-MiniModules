@@ -19,7 +19,7 @@ public class CarryOn  extends JavaPlugin{
 		try {
 			getServer().getPluginManager().registerEvents(new CarryListener(), this);
 		} catch (Exception e) {
-			getLogger().info("Fishing Listen Failed");
+			getLogger().info("Carry Listen Failed");
 			getServer().getPluginManager().disablePlugin(this);
 		}
 		
