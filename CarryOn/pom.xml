@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.B0WL</groupId>
-	<artifactId>CarryOn</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<artifactId>CarryOn-Entity</artifactId>
+	<version>0.1.0</version>
 
 	<build>
 		<plugins>
